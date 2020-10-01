@@ -46,7 +46,7 @@
 
 	![图片 17](Linked_image_Files/PowerBI_Lab02A_image3.png)
 
-	*提示：你还可以通过单击右上方的 **“保存”**图标来保存文件*。
+	*提示：你还可以通过单击右上方的 **“保存”** 图标来保存文件*。
 
 	![图片 18](Linked_image_Files/PowerBI_Lab02A_image4.png)
 
@@ -56,27 +56,27 @@
 
 1. 在 Power BI Desktop 中，单击 **“文件”** 功能区选项卡以打开后台视图。
 
-7. 选择左侧的 **“选项和设置”**，然后选择 **“选项”**。
+2. 选择左侧的 **“选项和设置”**，然后选择 **“选项”**。
 
 	![图片 1](Linked_image_Files/PowerBI_Lab02A_image5.png)
 
-8. 在**选项**窗口左侧的 **“当前文件”** 组中选择 **“数据加载”**。
+3. 在**选项**窗口左侧的 **“当前文件”** 组中选择 **“数据加载”**。
 
 	![图片 5](Linked_image_Files/PowerBI_Lab02A_image6.png)
 
 	*当前文件的 **“数据载入”** 设置允许设置选项，这些选项确定建模时的默认行为*。
 
-9. 在 **“关系”** 组中，取消选中已选中的两个选项。
+4. 在 **“关系”** 组中，取消选中已选中的两个选项。
 
 	![图片 7](Linked_image_Files/PowerBI_Lab02A_image7.png)
 
-	*虽然这两个选项在开发数据模型时可能会有所帮助，但已禁用它们以支持实验室体验。*在**实验室 03A**中创建关系时，你将了解为什么要添加每个关系*。
+	*虽然这两个选项在开发数据模型时可能会有所帮助，但已禁用它们以支持实验室体验。在**实验室 03A**中创建关系时，你将了解为什么要添加每个关系*。
 
-10. 单击 **“确定”**。
+5. 单击 **“确定”**。
 
 	![图片 9](Linked_image_Files/PowerBI_Lab02A_image8.png)
 
-11. 保存 Power BI Desktop 文件。
+6. 保存 Power BI Desktop 文件。
 
 ### 任务 3：从 SQL Server 获取数据
 
@@ -86,43 +86,43 @@
 
 	![图片 19](Linked_image_Files/PowerBI_Lab02A_image9.png)
 
-13. 在 **“SQL Server 数据库”** 窗口中，在 **“服务器”** 框，输入 **“本地主机”**。
+2. 在 **“SQL Server 数据库”** 窗口中，在 **“服务器”** 框，输入 **“本地主机”**。
 
 	![图片 21](Linked_image_Files/PowerBI_Lab02A_image10.png)
 
 	*在实验室中，你将使用 **localhost** 连接到 SQL Server 数据库 。但在创建自己的解决方案时，不建议这样做。这是因为网关数据源无法解析 **localhost***。
 
-14. 单击 **“确定”**。
+3. 单击 **“确定”**。
 
 	![图片 22](Linked_image_Files/PowerBI_Lab02A_image11.png)
 
-15. 请注意，默认身份验证为 **“使用我当前的凭据”**。
+4. 请注意，默认身份验证为 **“使用我当前的凭据”**。
 
 	![图片 23](Linked_image_Files/PowerBI_Lab02A_image12.png)
 
-16. 单击 **“连接”**。
+5. 单击 **“连接”**。
 
 	![图片 25](Linked_image_Files/PowerBI_Lab02A_image13.png)
 
-17. 当提示有关加密支持时，请单击 **“确定”**。
+6. 当提示有关加密支持时，请单击 **“确定”**。
 
 	![图片 27](Linked_image_Files/PowerBI_Lab02A_image14.png)
 
-18. 在**导航**窗口左侧，展开 **AdventureWorksDW2020** 数据库。
+7. 在**导航**窗口左侧，展开 **AdventureWorksDW2020** 数据库。
 
 	***AdventureWorksDW2020** 数据库基于 **AdventureWorksDW2017** 示例数据库。已对其进行修改以支持课程实验室的学习目标*。
 
 	![图片 28](Linked_image_Files/PowerBI_Lab02A_image15.png)
 
-19. 选择 **“DimEmployee”** 表但不划勾。
+8. 选择 **“DimEmployee”** 表但不划勾。
 
 	![图片 29](Linked_image_Files/PowerBI_Lab02A_image16.png)
 
-20. 在右窗格中，注意表的预览。
+9. 在右窗格中，注意表的预览。
 
 	*预览使你可以确定列和一个行样本*。
 
-21. 要创建查询，请检查以下六个表：
+10. 要创建查询，请检查以下六个表：
 
 	* DimEmployee
 
@@ -136,7 +136,7 @@
 
 	* FactResellerSales
 
-22. 要将转换应用于所选表的数据，请单击 **“转换数据”**。
+11. 要将转换应用于所选表的数据，请单击 **“转换数据”**。
 
 	*在本实验室中，你将不会转换数据。本实验室的目的是探索和分析 **“Power Query 编辑器”** 窗口中的数据*。
 
@@ -152,99 +152,99 @@
 
 	***查询**窗格为每个选定的表包含一个查询*。
 
-24. 选择第一个查询 **“DimEmployee”**。
+2. 选择第一个查询 **“DimEmployee”**。
 
 	![图片 33](Linked_image_Files/PowerBI_Lab02A_image19.png)
 
 	* **“DimEmployee”** 表为每个员工存储一行。行的子集代表销售人员，这与你将开发的模型有关*。
 
-25. 注意左下角状态栏的表统计信息 - 该表有 33 列和 296 行。
+3. 注意左下角状态栏的表统计信息 - 该表有 33 列和 296 行。
 
 	![图片 36](Linked_image_Files/PowerBI_Lab02A_image20.png)
 
-26. 在数据预览窗格中，水平滚动以查看所有列。
+4. 在数据预览窗格中，水平滚动以查看所有列。
 
-27. 请注意，最后五列包含**表**或**值**链接。
+5. 请注意，最后五列包含**表**或**值**链接。
 
 	*这五列代表与数据库中其他表的关系。它们可用于将表连接在一起。你将在 **“实验室 03A”** 中加入表格*。
 
-28. 要评估列质量，请在 **“视图”** 功能区选项卡，从 **“数据预览”** 组中，勾选 **“列质量”**。
+6. 要评估列质量，请在 **“视图”** 功能区选项卡，从 **“数据预览”** 组中，勾选 **“列质量”**。
 
 	![图片 35](Linked_image_Files/PowerBI_Lab02A_image21.png)
 
 	*列质量使你可以轻松确定有效、错误或空值的百分比*。
 
-29. 对于 **“Position”** 列（倒数第六列），请注意 94％ 的行为空（空白）。
+7. 对于 **“Position”** 列（倒数第六列），请注意 94％ 的行为空（空白）。
 
 	![图片 38](Linked_image_Files/PowerBI_Lab02A_image22.png)
 
-30. 要评估列分布，请在 **“视图”** 功能区选项卡上，从 **“数据预览”** 组中，勾选 **“列分布”**。
+8. 要评估列分布，请在 **“视图”** 功能区选项卡上，从 **“数据预览”** 组中，勾选 **“列分布”**。
 
 	![图片 40](Linked_image_Files/PowerBI_Lab02A_image23.png)
 
-31. 再次查看 **“Position”** 列，请注意有四个不同的值和一个唯一的值。
+9. 再次查看 **“Position”** 列，请注意有四个不同的值和一个唯一的值。
 
-32. 在 **“EmployeeKey”** （第一） 列查看列分布 - 有 296 个不同的值和 296 个唯一值。
+10. 在 **“EmployeeKey”** （第一） 列查看列分布 - 有 296 个不同的值和 296 个唯一值。
 
 	![图片 43](Linked_image_Files/PowerBI_Lab02A_image24.png)
 
-	*如果不同计数和唯一计数相同，则表示该列包含唯一值。在建模时，某些表包含唯一列很重要。它们将用于创建一对多关系，你将在实**验室 04A**中进行此操作。
+	*如果不同计数和唯一计数相同，则表示该列包含唯一值。在建模时，某些表包含唯一列很重要。它们将用于创建一对多关系，你将在实**验室 04A**中进行此操作*。
 
-33. 在 **“查询”** 窗格中，选择 **“DimEmployeeSalesTerritory”** 查询。
+11. 在 **“查询”** 窗格中，选择 **“DimEmployeeSalesTerritory”** 查询。
 
 	![图片 44](Linked_image_Files/PowerBI_Lab02A_image25.png)
 
 	* **“DimEmployeeSalesTerritory”** 表为每位员工及其管理的销售地区存储一行。该表支持将多个地区与单个员工相关联。一些员工管理一个、两个或可能更多的区域。对数据建模时，需要定义多对多关系，这将在 **“实验室 05A”** 中进行*。
 
-34. 在**查询**窗格中，选择 **“DimProduct”** 查询。
+12. 在**查询**窗格中，选择 **“DimProduct”** 查询。
 
 	![图片 46](Linked_image_Files/PowerBI_Lab02A_image26.png)
 
-	* **“DimProduct ”** 表包含公司销售的每种产品的一行*。
+	* **“DimProduct”** 表包含公司销售的每种产品的一行*。
 
-35. 水平滚动以显示最后几列。
+13. 水平滚动以显示最后几列。
 
-36. 注意 **“DimProductSubcategory”** 列。
+14. 注意 **“DimProductSubcategory”** 列。
 
 	*在下一个实验室中向此查询添加转换时，将使用 **“DimProductSubcategory”** 列来联接表*。
 
-37. 在 **“查询”** 窗格中，选择 **DimReseller** 查询。
+15. 在 **“查询”** 窗格中，选择 **DimReseller** 查询。
 
 	![图片 49](Linked_image_Files/PowerBI_Lab02A_image27.png)
 
 	*在 **DimReseller** 表中，每个经销商对应一行。*经销商销售、分销或增值 Adventure Works' 的产品*。
 
-38. 要查看列值，请在 **“视图”** 功能区选项卡，从 **“数据预览”** 组中，勾选 **“列分析”**。
+16. 要查看列值，请在 **“视图”** 功能区选项卡，从 **“数据预览”** 组中，勾选 **“列分析”**。
 
 	![图片 41](Linked_image_Files/PowerBI_Lab02A_image28.png)
 
-39. 选择 **“BusinessType”** 列标题。
+17. 选择 **“BusinessType”** 列标题。
 
-40. 请注意，“数据预览”窗格下面会打开一个新窗格。
+18. 请注意，“数据预览”窗格下面会打开一个新窗格。
 
-41. 查看列统计信息和值分布。
+19. 查看列统计信息和值分布。
 
-42. 请注意数据质量问题：仓库有两个标签（**“Warehouse”** 以及拼写错误的 **“Ware House”**）。
+20. 请注意数据质量问题：仓库有两个标签（**“Warehouse”** 以及拼写错误的 **“Ware House”**）。
 
 	![图片 51](Linked_image_Files/PowerBI_Lab02A_image29.png)
 
-43. 将光标悬停在 **“仓库”** 栏，请注意，此值有五行。
+21. 将光标悬停在 **“仓库”** 栏，请注意，此值有五行。
 
 	*在下一个实验室中，你将应用转换来重新标记这五行*。
 
-44. 在**查询**窗格中，选择 **“DimSalesTerritory”** 查询。
+22. 在**查询**窗格中，选择 **“DimSalesTerritory”** 查询。
 
 	![图片 52](Linked_image_Files/PowerBI_Lab02A_image30.png)
 
 	*在 **“DimSalesTerritory”** 表中，每个销售区域占一行，包括 **“Corporate HQ”**（总部）。区域分配给国家/地区，国家/地区分配给组。在实**验室 04A**中，将创建层次结构以支持区域、国家/地区或组级别的分析*。
 
-45. 在 **“查询”** 窗格中，选择 **“FactResellerSales”** 查询。
+23. 在 **“查询”** 窗格中，选择 **“FactResellerSales”** 查询。
 
 	![图片 54](Linked_image_Files/PowerBI_Lab02A_image31.png)
 
 	* **FactResellerSales** 表中每个销售订单行包含一行 - 一个销售订单包含一个或多个行项*。
 
-46. 查看 **“TotalProductCost”** 列的列质量，请注意 8％ 的行为空。
+24. 查看 **“TotalProductCost”** 列的列质量，请注意 8％ 的行为空。
 
 	![图片 63](Linked_image_Files/PowerBI_Lab02A_image32.png)
 
@@ -258,27 +258,27 @@
 
 	![图片 70](Linked_image_Files/PowerBI_Lab02A_image33.png)
 
-48. 在 **“打开”** 窗口中，导航到 **“D:\DA100\Data”** 文件夹，然后选择 **ResellerSalesTargets.csv** 文件。
+2. 在 **“打开”** 窗口中，导航到 **“D:\DA100\Data”** 文件夹，然后选择 **ResellerSalesTargets.csv** 文件。
 
-49. 单击 **“打开”**。
+3. 单击 **“打开”**。
 
-50. 在 **“ResellerSalesTargets.csv”** 窗口中，注意数据预览。
+4. 在 **“ResellerSalesTargets.csv”** 窗口中，注意数据预览。
 
-51. 单击 **“确定”**。
+5. 单击 **“确定”**。
 
 	![图片 71](Linked_image_Files/PowerBI_Lab02A_image34.png)
 
-52. 在 **“查询”** 窗格中，注意添加了 **“ResellerSalesTargets”** 查询。
+6. 在 **“查询”** 窗格中，注意添加了 **“ResellerSalesTargets”** 查询。
 
 	![图片 72](Linked_image_Files/PowerBI_Lab02A_image35.png)
 
 	* **“ResellerSalesTargets”** CSV 文件包含每个销售员每年一行。每行记录 12 个月度销售目标（以千为单位表示）。Adventure Works 公司的业务年度从 7 月 1 日开始*。
 
-53. 请注意，没有列包含空值。
+7. 请注意，没有列包含空值。
 
 	*如果没有每月销售目标，则会存储一个连字符*。
 
-54. 查看列名称左侧每个列标题中的图标。
+8. 查看列名称左侧每个列标题中的图标。
 
 	![图片 74](Linked_image_Files/PowerBI_Lab02A_image36.png)
 
@@ -310,16 +310,16 @@
 
 	![图片 76](Linked_image_Files/PowerBI_Lab02A_image38.png)
 
-57. 要保存 Power BI Desktop 文件，请在 **“文件”** 后台视图中选择 **“保存”**。
+2. 要保存 Power BI Desktop 文件，请在 **“文件”** 后台视图中选择 **“保存”**。
 
 	![图片 77](Linked_image_Files/PowerBI_Lab02A_image39.png)
 
-58. 当提示你应用查询时，单击 **“稍后应用”**。
+3. 当提示你应用查询时，单击 **“稍后应用”**。
 
 	![图片 86](Linked_image_Files/PowerBI_Lab02A_image40.png)
 
-	*应用查询会将其数据加载到数据模型。*你还没有准备好这样做，因为必须首先应用许多转换*。
+	*应用查询会将其数据加载到数据模型。你还没有准备好这样做，因为必须首先应用许多转换*。
 
-59. 保持 Power BI Desktop 打开状态。
+4. 保持 Power BI Desktop 打开状态。
 
-	*在下一个实验室中，你将对查询应用各种转换，然后应用这些查询将转换加载到数据模型。*。
+	*在下一个实验室中，你将对查询应用各种转换，然后应用这些查询将转换加载到数据模型*。

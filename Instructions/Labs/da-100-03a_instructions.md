@@ -70,7 +70,7 @@
 
     ![图片 99](Linked_image_Files/PowerBI_Lab03A_image8.png)
 
-11. 在**选择列**窗口中，要取消选中所有列，请取消选中**（选择所有列）**项目。
+11. 在**选择列**窗口中，要取消选中所有列，请取消选中 **（选择所有列）** 项目。
 
     ![图片 102](Linked_image_Files/PowerBI_Lab03A_image9.png)
 
@@ -132,7 +132,7 @@
 
     ![图片 5638](Linked_image_Files/PowerBI_Lab03A_image16.png)
 
-    *如果查询未产生正确的结果，请不要继续进行，否则无法完成后面的实验室，这一点很重要。*如果未产生正确的结果，请参考此任务中的步骤解决所有问题**。
+    *如果查询未产生正确的结果，请不要继续进行，否则无法完成后面的实验室，这一点很重要。如果未产生正确的结果，请参考此任务中的步骤解决所有问题*。
 
 ### 任务 2：配置 SalespersonRegion 查询
 
@@ -142,17 +142,17 @@
 
     ![图片 5639](Linked_image_Files/PowerBI_Lab03A_image17.png)
 
-26. 在 **“查询设置”** 窗格中，将查询重命名为 **“SalespersonRegion”**。
+2. 在 **“查询设置”** 窗格中，将查询重命名为 **“SalespersonRegion”**。
 
-27. 要删除最后两列，请先选择 **“DimEmployee”** 列标题。
+3. 要删除最后两列，请先选择 **“DimEmployee”** 列标题。
 
-28. 在按下 **Ctrl** 键的同时，选择 **“DimSalesTerritory”** 列标题。
+4. 在按下 **Ctrl** 键的同时，选择 **“DimSalesTerritory”** 列标题。
 
-29. 右键单击任一选择列标题，然后在上下文菜单中选择 **“删除列”**。
+5. 右键单击任一选择列标题，然后在上下文菜单中选择 **“删除列”**。
 
     ![图片 5640](Linked_image_Files/PowerBI_Lab03A_image18.png)
 
-30. 在状态栏中，验证查询是否具有两列和 39 行。
+6. 在状态栏中，验证查询是否具有两列和 39 行。
 
     ![图片 5641](Linked_image_Files/PowerBI_Lab03A_image19.png)
 
@@ -166,11 +166,11 @@
 
     ![图片 5643](Linked_image_Files/PowerBI_Lab03A_image20.png)
 
-32. 将该查询重命名为 **“Product”**。
+2. 将该查询重命名为 **“Product”**。
 
-33. 找到 **“FinishedGoodsFlag”** 列，然后筛选该列以检索制成品的产品（即 TRUE）。
+3. 找到 **“FinishedGoodsFlag”** 列，然后筛选该列以检索制成品的产品（即 TRUE）。
 
-34. 删除所有列，以下列除外：
+4. 删除所有列，以下列除外：
 
     * ProductKey
 
@@ -182,35 +182,35 @@
 
     * DimProductSubcategory
 
-35. 请注意 **“DimProductSubcategory”** 列代表相关表（它包含 **“值”** 链接）。
+5. 请注意 **“DimProductSubcategory”** 列代表相关表（它包含 **“值”** 链接）。
 
-36. 在 **“DimProductSubcategory”** 列标题中，在列名称右侧，单击展开按钮。
+6. 在 **“DimProductSubcategory”** 列标题中，在列名称右侧，单击展开按钮。
 
     ![图片 5644](Linked_image_Files/PowerBI_Lab03A_image21.png)
 
-37. 要取消选中所有列，请取消选中 **“(选择所有列)”** 项目。
+7. 要取消选中所有列，请取消选中 **“(选择所有列)”** 项目。
 
-38. 选中 **“EnglishProductSubcategoryName”** 和 **“DimProductCategory”** 列。
+8. 选中 **“EnglishProductSubcategoryName”** 和 **“DimProductCategory”** 列。
 
     ![图片 5646](Linked_image_Files/PowerBI_Lab03A_image22.png)
 
     *通过选择这两列，将应用转换以联接到 **“DimProductSubcategory”** 表，然后包含这些列。**“DimProductCategory”** 列实际上是另一个相关的表*。
 
-39. 取消选中 **“使用原始列名作为前缀”** 复选框。
+9. 取消选中 **“使用原始列名作为前缀”** 复选框。
 
     ![图片 5647](Linked_image_Files/PowerBI_Lab03A_image23.png)
 
     *查询列名称必须始终唯一。选中后，此复选框将为每个列加上扩展列名作为前缀（此处为 **DimProductSubcategory**）。因为已知所选列不会与 **Product** 查询冲突，该选项被取消选择*。
 
-40. 单击 **“确定”**。
+10. 单击 **“确定”**。
 
     ![图片 5648](Linked_image_Files/PowerBI_Lab03A_image24.png)
 
-41. 请注意，转换产生了两列，并且 **DimProductCategory** 列已被删除。
+11. 请注意，转换产生了两列，并且 **DimProductCategory** 列已被删除。
 
-42. 展开 **DimProductCategory**，然后仅引入 **“EnglishProductCategoryName”** 列。
+12. 展开 **DimProductCategory**，然后仅引入 **“EnglishProductCategoryName”** 列。
 
-43. 重命名以下四列：
+13. 重命名以下四列：
 
     * **“EnglishProductName”** 改为 **“Product”**
 
@@ -220,7 +220,7 @@
 
     * **EnglishProductCategoryName** 改为 **Category**
 
-44. 在状态栏中，验证查询是否具有 6 列和 397 行。
+14. 在状态栏中，验证查询是否具有 6 列和 397 行。
 
     ![图片 5651](Linked_image_Files/PowerBI_Lab03A_image25.png)
 
@@ -232,9 +232,9 @@
 
     ![图片 5653](Linked_image_Files/PowerBI_Lab03A_image26.png)
 
-46. 将查询重命名为 **“Reseller”**。
+2. 将查询重命名为 **“Reseller”**。
 
-47. 删除所有列，以下列除外：
+3. 删除所有列，以下列除外：
 
     * ResellerKey
 
@@ -244,7 +244,7 @@
 
     * DimGeography
 
-48. 展开 **“DimGeography”** 列，以便仅包括以下三列：
+4. 展开 **“DimGeography”** 列，以便仅包括以下三列：
 
     * City
 
@@ -254,18 +254,18 @@
 
     ![Picture 5656](Linked_image_Files/PowerBI_Lab03A_image27.png)
 
-49. 在**业务类型**列标题中，单击向下箭头，然后查看项以及仓库的错误拼写。
+5. 在**业务类型**列标题中，单击向下箭头，然后查看项以及仓库的错误拼写。
 
     ![图片 2](Linked_image_Files/PowerBI_Lab03A_image28.png)
 
   
  
 
-50. 右键单击 **“Business Type”** 列标题，然后选择 **“替换值”**。
+6. 右键单击 **“Business Type”** 列标题，然后选择 **“替换值”**。
 
     ![图片 4](Linked_image_Files/PowerBI_Lab03A_image29.png)
 
-51. 在 **“替换值”** 窗口，配置以下值：
+7. 在 **“替换值”** 窗口，配置以下值：
 
     * 在 **“要查找的值”** 框中，输入 **“Ware House”**
 
@@ -273,11 +273,11 @@
 
     ![图片 5](Linked_image_Files/PowerBI_Lab03A_image30.png)
 
-52. 单击 **“确定”**。
+8. 单击 **“确定”**。
 
     ![图片 6](Linked_image_Files/PowerBI_Lab03A_image31.png)
 
-53. 重命名以下四列：
+9. 重命名以下四列：
 
     * **“BusinessType”** 改为 **“Business Type”** （包含一个空格）
 
@@ -287,7 +287,7 @@
 
     * **“EnglishCountryRegionName”** 改为 **“Country-Region”**
 
-54. 在状态栏中，确认查询具有 6 列和 701 行。
+10. 在状态栏中，确认查询具有 6 列和 701 行。
 
     ![图片 5657](Linked_image_Files/PowerBI_Lab03A_image32.png)
 
@@ -299,13 +299,13 @@
 
     ![图片 5659](Linked_image_Files/PowerBI_Lab03A_image33.png)
 
-56. 将查询重命名为 **“区域”**。
+2. 将查询重命名为 **“区域”**。
 
-57. 向 **“销售区域备用密钥”** 列应用筛选器以删除值 0（零）。
+3. 向 **“销售区域备用密钥”** 列应用筛选器以删除值 0（零）。
 
     ![图片 5660](Linked_image_Files/PowerBI_Lab03A_image34.png)
 
-58. 删除所有列，以下列除外：
+4. 删除所有列，以下列除外：
 
     * SalesTerritoryKey
 
@@ -315,7 +315,7 @@
 
     * SalesTerritoryGroup
 
-59. 重命名以下三列：
+5. 重命名以下三列：
 
     * **“SalesTerritoryRegion”** 改为 **“Region”**
 
@@ -323,21 +323,21 @@
 
     * **“SalesTerritoryGroup”** 改为 **“Group”**
 
-60. 在状态栏中，验证查询是否具有四列和 10 行。
+6. 在状态栏中，验证查询是否具有四列和 10 行。
 
     ![图片 5661](Linked_image_Files/PowerBI_Lab03A_image35.png)
 
 ### 任务 6：配置 Sales 查询
 
-在此任务中，我们将配置 **“Sales”**查询。
+在此任务中，我们将配置 **“Sales”** 查询。
 
 1. 选择 **FactResellerSales** 查询。
 
     ![图片 5663](Linked_image_Files/PowerBI_Lab03A_image36.png)
 
-62. 将查询重命名为 **“Sales”**。
+2. 将查询重命名为 **“Sales”**。
 
-63. 删除所有列，以下列除外：
+3. 删除所有列，以下列除外：
 
     * SalesOrderNumber
 
@@ -363,19 +363,19 @@
 
     *回想一下在实**验室 02A**中，**“FactResellerSales”** 行中有一小部分缺少 **TotalProductCost** 值。包含的 **DimProduct** 列可以检索产品标准成本，以修复缺失值*。
 
-64. 展开 **“DimProduct”** 列，然后包括 **“StandardCost”** 列。
+4. 展开 **“DimProduct”** 列，然后包括 **“StandardCost”** 列。
 
-65. 要创建自定义列，请在 **“添加列”** 功能区选项卡上，从 **“常规”** 组内部，单击 **“自定义列”**。
+5. 要创建自定义列，请在 **“添加列”** 功能区选项卡上，从 **“常规”** 组内部，单击 **“自定义列”**。
 
     ![图片 5664](Linked_image_Files/PowerBI_Lab03A_image37.png)
 
-66. 在 **“自定义列”** 窗口的 **“新列名”** 框中，将文本替换为 **“Cost”**。
+6. 在 **“自定义列”** 窗口的 **“新列名”** 框中，将文本替换为 **“Cost”**。
 
     ![图片 5665](Linked_image_Files/PowerBI_Lab03A_image38.png)
 
-67. 在 **“自定义列公式”** 框中，输入以下表达式（等号后面的文本）：
+7. 在 **“自定义列公式”** 框中，输入以下表达式（等号后面的文本）：
 
-68. 为了方便起见，你可以从 **D:\DA100\Lab03A\Assets\Snippets.txt** 文件复制表达式。
+8. 为了方便起见，你可以从 **D:\DA100\Lab03A\Assets\Snippets.txt** 文件复制表达式。
 
     **Power Query**
 
@@ -385,17 +385,17 @@
 
     *此表达式测试 **TotalProductCost** 值是否缺失。如果是，则通过将 **OrderQuantity** 值乘以 **StandardCost** 值生成一个值；否则，它使用现有的 **TotalProductCost** 值*。
 
-69. 单击 **“确定”**。
+9. 单击 **“确定”**。
 
     ![图片 5666](Linked_image_Files/PowerBI_Lab03A_image39.png)
 
-70. 删除以下两列：
+10. 删除以下两列：
 
     * TotalProductCost
 
     * StandardCost
 
-71. 重命名以下三列：
+11. 重命名以下三列：
 
     * **OrderQuantity** 重命名为 **Quantity**
 
@@ -403,13 +403,13 @@
 
     * **SalesAmount** 重命名为 **Sales**
 
-72. 要修改列数据类型，请在 **Quantity** 列标题，在列名称的左侧，单击 **1.2** 图标，然后选择 **“整数”**。
+12. 要修改列数据类型，请在 **Quantity** 列标题，在列名称的左侧，单击 **1.2** 图标，然后选择 **“整数”**。
 
     ![图片 5667](Linked_image_Files/PowerBI_Lab03A_image40.png)
 
     *配置正确的数据类型很重要。当列中包含数值时，如果希望执行数学计算，则选择正确的类型也很重要*。
 
-73. 将以下三列数据类型修改为 **“固定十进制数”**。
+13. 将以下三列数据类型修改为 **“固定十进制数”**。
 
     * Unit Price
 
@@ -421,7 +421,7 @@
 
     *固定十进制数数据类型以全精度存储值，因此需要比十进制数更多的存储空间。*对于财务值或利率（例如汇率），请使用固定十进制数类型，这一点很重要**。
 
-74. 在状态栏中，确认查询具有 10 列和超过 999 行。
+14. 在状态栏中，确认查询具有 10 列和超过 999 行。
 
     ![图片 5669](Linked_image_Files/PowerBI_Lab03A_image42.png)
 
@@ -435,21 +435,21 @@
 
     ![图片 5672](Linked_image_Files/PowerBI_Lab03A_image43.png)
 
-76. 将查询重命名为 **Targets**。
+2. 将查询重命名为 **Targets**。
 
-77. 若要逆透视 12 个月的列 (**“M01”** - **“M12”**)，请先多重选择 **“Year”** 和 **“EmployeeID”** 列标题。
+3. 若要逆透视 12 个月的列 (**“M01”** - **“M12”**)，请先多重选择 **“Year”** 和 **“EmployeeID”** 列标题。
 
     ![图片 5673](Linked_image_Files/PowerBI_Lab03A_image44.png)
 
-78. 右键单击任一选择列标题，然后在上下文菜单中选择 **“逆透视其他列”**。
+4. 右键单击任一选择列标题，然后在上下文菜单中选择 **“逆透视其他列”**。
 
     ![图片 5674](Linked_image_Files/PowerBI_Lab03A_image45.png)
 
-79. 请注意，列名称现在显示在 **Attribute** 列中，并且值显示在 **Value** 列中。
+5. 请注意，列名称现在显示在 **Attribute** 列中，并且值显示在 **Value** 列中。
 
-80. 将过滤器应用于 **Value** 列以删除连字符 (-) 值。
+6. 将过滤器应用于 **Value** 列以删除连字符 (-) 值。
 
-81. 重命名以下两列：
+7. 重命名以下两列：
 
     * **Attribute** 重命名为 **MonthNumber**（两个词之间没有空格，稍后将删除）
 
@@ -457,73 +457,73 @@
 
     *现在，你将应用转换以生成日期列。日期将来自 **年** 和 **MonthNumber** 列。你将使用 **“示例中的列”** 功能创建列*。
 
-82. 要准备 **MonthNumber** 列值，请右键单击 **MonthNumber** 列标题，然后选择 **“替换值”**。
+8. 要准备 **MonthNumber** 列值，请右键单击 **MonthNumber** 列标题，然后选择 **“替换值”**。
 
     ![图片 5676](Linked_image_Files/PowerBI_Lab03A_image46.png)
 
-83. 在 **“替换值”** 窗口的 **“要查找的值”** 框中，输入 **M**。
+9. 在 **“替换值”** 窗口的 **“要查找的值”** 框中，输入 **M**。
 
     ![图片 5677](Linked_image_Files/PowerBI_Lab03A_image47.png)
 
-84. 单击 **“确定”**。
+10. 单击 **“确定”**。
 
-85. 将 **MonthNumber** 列数据类型修改为 **“整数”**。
+11. 将 **MonthNumber** 列数据类型修改为 **“整数”**。
 
     ![图片 5678](Linked_image_Files/PowerBI_Lab03A_image48.png)
 
-86. 在 **“添加列”** 功能区选项卡上，从 **“常规”** 组内，单击 **“示例中的列”** 图标。
+12. 在 **“添加列”** 功能区选项卡上，从 **“常规”** 组内，单击 **“示例中的列”** 图标。
 
     ![图片 5675](Linked_image_Files/PowerBI_Lab03A_image49.png)
 
-87. 请注意，第一行对应年份 **“2017”** 和月份 **“7”**。
+13. 请注意，第一行对应年份 **“2017”** 和月份 **“7”**。
 
-88. 在 **Column1** 列的第一个网格单元中，开始输入 **2017 年 7 月 1 日**，然后按 **Enter**。
+14. 在 **Column1** 列的第一个网格单元中，开始输入 **2017 年 7 月 1 日**，然后按 **Enter**。
 
     *该虚拟机使用美国区域设置，因此该日期实际上是 2017 年 7 月 1 日*。
 
-89. 请注意，网格单元格会使用预测值进行更新。
+15. 请注意，网格单元格会使用预测值进行更新。
 
     该功能已准确预测你正在合并两列中的值。
 
-90. 还要注意查询网格上方显示的公式。
+16. 还要注意查询网格上方显示的公式。
 
     ![图片 5679](Linked_image_Files/PowerBI_Lab03A_image50.png)
 
-91. 要重命名新列，请双击 **Merged** 列标题。
+17. 要重命名新列，请双击 **Merged** 列标题。
 
-92. 将列重命名为 **TargetMonth**。
+18. 将列重命名为 **TargetMonth**。
 
     ![图片 5680](Linked_image_Files/PowerBI_Lab03A_image51.png)
 
-93. 单击 **“确定”**。
+19. 单击 **“确定”**。
 
     ![图片 5681](Linked_image_Files/PowerBI_Lab03A_image52.png)
 
-94. 删除以下列：
+20. 删除以下列：
 
     * Year
 
     * MonthNumber
 
-95. 修改以下列的数据类型：
+21. 修改以下列的数据类型：
 
     * 将 **Target** 修改为固定十进制数
 
     * 将 **TargetMonth** 修改为日期
 
-96. 要将 **Target** 值乘以 1000，请选择 **“Target”** 列标题，然后在 **“转换”** 功能区选项卡上，从 **“数字列”** 组内，单击 **“标准”**，然后选择 **“乘”**。
+22. 要将 **Target** 值乘以 1000，请选择 **“Target”** 列标题，然后在 **“转换”** 功能区选项卡上，从 **“数字列”** 组内，单击 **“标准”**，然后选择 **“乘”**。
 
     ![图片 5682](Linked_image_Files/PowerBI_Lab03A_image53.png)
 
-97. 在 **“乘”** 窗口中的 **“值”** 框，输入 **1000**。
+23. 在 **“乘”** 窗口中的 **“值”** 框，输入 **1000**。
 
     ![图片 5683](Linked_image_Files/PowerBI_Lab03A_image54.png)
 
-98. 单击 **“确定”**。
+24. 单击 **“确定”**。
 
     ![图片 5684](Linked_image_Files/PowerBI_Lab03A_image55.png)
 
-99. 在状态栏中，确认查询具有三列和 809 行。
+25. 在状态栏中，确认查询具有三列和 809 行。
 
     ![图片 5685](Linked_image_Files/PowerBI_Lab03A_image56.png)
 
@@ -534,12 +534,12 @@
 1. 选择 **ColorFormats** 查询。  
 	![图片 5687](Linked_image_Files/PowerBI_Lab03A_image57.png)
 
-101. 请注意，第一行包含列名。
+2. 请注意，第一行包含列名。
 
-102. 在 **“主页”** 功能区选项卡中，单击 **“转换”** 组内的 **“将第一行用作标题”**。  
+3. 在 **“主页”** 功能区选项卡中，单击 **“转换”** 组内的 **“将第一行用作标题”**。  
     ![图片 5688](Linked_image_Files/PowerBI_Lab03A_image58.png)
 
-103. 在状态栏中，确认查询具有三列和 10 行。  
+4. 在状态栏中，确认查询具有三列和 10 行。  
 	![图片 5689](Linked_image_Files/PowerBI_Lab03A_image59.png)
 
 ### 任务 9：更新 Product 查询
@@ -586,14 +586,14 @@
 1. 选择 **ColorFormats** 查询。  
 	![图片 321](Linked_image_Files/PowerBI_Lab03A_image68.png)
 
-115. 在 **“查询设置”** 窗格中，单击 **“所有属性”** 链接。  
+2. 在 **“查询设置”** 窗格中，单击 **“所有属性”** 链接。  
 	![图片 322](Linked_image_Files/PowerBI_Lab03A_image69.png)
 
-116. 在 **“查询属性”** 窗口中，取消选中 **“启用加载到报表”** 复选框。  
+3. 在 **“查询属性”** 窗口中，取消选中 **“启用加载到报表”** 复选框。  
 	![图片 323](Linked_image_Files/PowerBI_Lab03A_image70.png)  
 	*禁用加载意味着它将不会作为表加载到数据模型。这样做是因为查询已与 Product 查询合并，而 Product 查询已启用以适合数据模型*。
 
-117. 单击 **“确定”**。  
+4. 单击 **“确定”**。  
 	![图片 324](Linked_image_Files/PowerBI_Lab03A_image71.png)
 
 ### 完成
@@ -618,14 +618,14 @@
 
     * ColorFormats（不会加载到数据模型中）
 
-119. 要加载数据模型，请在 **“文件”** 后台视图，选择 **“关闭并应用”**。  
+2. 要加载数据模型，请在 **“文件”** 后台视图，选择 **“关闭并应用”**。  
 	![图片 326](Linked_image_Files/PowerBI_Lab03A_image72.png)  
 	*现在，所有启用了加载的查询都已加载到数据模型中*。
 
-120. 在 **“字段”** 窗格（位于右侧）中，请注意已加载到数据模型的七个表。  
+3. 在 **“字段”** 窗格（位于右侧）中，请注意已加载到数据模型的七个表。  
 	![图片 3](Linked_image_Files/PowerBI_Lab03A_image73.png)
 
-121. 保存 Power BI Desktop 文件。
+4. 保存 Power BI Desktop 文件。
 
-122. 保持 Power BI Desktop 打开状态。  
+5. 保持 Power BI Desktop 打开状态。  
 	*在下一个实验室中，你将配置数据模型表和关系*。
