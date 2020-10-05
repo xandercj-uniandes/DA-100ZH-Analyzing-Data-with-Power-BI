@@ -266,9 +266,9 @@ Power BI Desktop 中的数据分析
 
 4. 将以下字段添加到视觉对象井中：
 
-	* 分析：**Sales | Profit Margin**
+	* 分析： **Sales | Profit Margin**
 
-	* 说明：**Reseller | **Business Type** 和 **Reseller |  Geography** （整个层次结构）
+	* 说明：**Reseller | Business Type** 和 **Reseller |  Geography** （整个层次结构）
 
 	* 展开依据：**Sales | Quantity**
 

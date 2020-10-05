@@ -36,7 +36,7 @@
 
 	![图片 13](Linked_image_Files/PowerBI_Lab02A_image1.png)
 
-3. 在**“另存为”**窗口中，导航到 **“D:\DA100\MySolution”** 文件夹。
+3. 在 **“另存为”** 窗口中，导航到 **“D:\DA100\MySolution”** 文件夹。
 
 4. 在里面 **“文档名”** 框，输入 **“Sales Analysis”**。
 
@@ -60,7 +60,7 @@
 
 	![图片 1](Linked_image_Files/PowerBI_Lab02A_image5.png)
 
-3. 在**“选项”**窗口左侧的 **“当前文件”** 组中选择 **“数据加载”**。
+3. 在 **“选项”** 窗口左侧的 **“当前文件”** 组中选择 **“数据加载”**。
 
 	![图片 5](Linked_image_Files/PowerBI_Lab02A_image6.png)
 
@@ -108,7 +108,7 @@
 
 	![图片 27](Linked_image_Files/PowerBI_Lab02A_image14.png)
 
-7.  在**“导航”**窗口左侧，展开 **AdventureWorksDW2020** 数据库。
+7.  在 **“导航”** 窗口左侧，展开 **AdventureWorksDW2020** 数据库。
 
 	***AdventureWorksDW2020** 数据库基于 **AdventureWorksDW2017** 示例数据库。已对其进行修改以支持课程实验室的学习目标*。
 
@@ -146,17 +146,17 @@
 
 在此任务中，你将预览 SQL Server 查询的数据。首先，你将学习数据的相关信息。你还将使用列质量、列分布和列概要文件工具来了解数据并评估数据质量。
 
-1. 在**“Power Query 编辑器”**窗口左侧，请注意**查询**窗格。
+1. 在 **“Power Query 编辑器”** 窗口左侧，请注意**查询** 窗格。
 
 	![图片 31](Linked_image_Files/PowerBI_Lab02A_image18.png)
 
-	***"查询"**窗格为每个选定的表包含一个查询*。
+	* **"查询"** 窗格为每个选定的表包含一个查询*。
 
 2. 选择第一个查询 **“DimEmployee”**。
 
 	![图片 33](Linked_image_Files/PowerBI_Lab02A_image19.png)
 
-	* **“DimEmployee”** 表为每个员工存储一行。行的子集代表销售人员，这与你将开发的模型有关*。
+	***“DimEmployee”** 表为每个员工存储一行。行的子集代表销售人员，这与你将开发的模型有关*。
 
 3. 注意左下角状态栏的表统计信息 - 该表有 33 列和 296 行。
 
@@ -196,11 +196,11 @@
 
 	* **“DimEmployeeSalesTerritory”** 表为每位员工及其管理的销售地区存储一行。该表支持将多个地区与单个员工相关联。一些员工管理一个、两个或可能更多的区域。对数据建模时，需要定义多对多关系，这将在 **“实验室 05A”** 中进行*。
 
-12. 在**“查询”**窗格中，选择 **“DimProduct”** 查询。
+12. 在 **“查询”** 窗格中，选择 **“DimProduct”** 查询。
 
 	![图片 46](Linked_image_Files/PowerBI_Lab02A_image26.png)
 
-	* **“DimProduct”** 表包含公司销售的每种产品的一行*。
+	***“DimProduct”** 表包含公司销售的每种产品的一行*。
 
 13. 水平滚动以显示最后几列。
 
@@ -232,7 +232,7 @@
 
 	*在下一个实验室中，你将应用转换来重新标记这五行*。
 
-22. 在**“查询”**窗格中，选择 **“DimSalesTerritory”** 查询。
+22. 在 **“查询”** 窗格中，选择 **“DimSalesTerritory”** 查询。
 
 	![图片 52](Linked_image_Files/PowerBI_Lab02A_image30.png)
 
@@ -242,7 +242,7 @@
 
 	![图片 54](Linked_image_Files/PowerBI_Lab02A_image31.png)
 
-	* **FactResellerSales** 表中每个销售订单行包含一行 - 一个销售订单包含一个或多个行项*。
+	***FactResellerSales** 表中每个销售订单行包含一行 - 一个销售订单包含一个或多个行项*。
 
 24. 查看 **“TotalProductCost”** 列的列质量，请注意 8％ 的行为空。
 
@@ -272,7 +272,7 @@
 
 	![图片 72](Linked_image_Files/PowerBI_Lab02A_image35.png)
 
-	* **“ResellerSalesTargets.csv”** 文件包含每个销售员每年一行。每行记录 12 个月度销售目标（以千为单位表示）。Adventure Works 公司的业务年度从 7 月 1 日开始*。
+	***“ResellerSalesTargets.csv”** 文件包含每个销售员每年一行。每行记录 12 个月度销售目标（以千为单位表示）。Adventure Works 公司的业务年度从 7 月 1 日开始*。
 
 7. 请注意，没有列包含空值。
 
@@ -284,7 +284,7 @@
 
 	*这些图标代表列数据类型。**123** 是整数，而 **ABC** 是文字*。
 
-	*在下一个实验室中，你将应用许多变换以实现仅由三列组成的不同形状的结果：**“Date”**, **“EmployeeKey”** 以及 **“TargetAmount”**。
+	*在下一个实验室中，你将应用许多变换以实现仅由三列组成的不同形状的结果：**“Date”**, **“EmployeeKey”** 以及 **“TargetAmount”***。
 
 ### 任务 6：从 CSV 文件中获取其他数据
 
