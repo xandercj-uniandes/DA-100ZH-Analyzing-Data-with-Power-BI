@@ -2,7 +2,7 @@
 
 - **[下载最新的学生手册和 AllFiles 内容](../../releases/latest)**
 - **你是 MCT 吗？** - 请查看[适用于 MCT 的 GitHub 用户指南](https://microsoftlearning.github.io/MCT-User-Guide-ZH/)
-- **是否需要手动生成实验说明？** - 可在 [MicrosoftLearning/Docker-Build](https://github.com/MicrosoftLearning/Docker-Build) 存储库中找到说明
+- **是否需要手动生成实验室说明？** - 可在 [MicrosoftLearning/Docker-Build](https://github.com/MicrosoftLearning/Docker-Build) 存储库中找到说明
 
 ## 我们要做什么？
 
@@ -24,7 +24,7 @@
 
 ## 我能做什么？
 
-- 每位 MCT 都可向 GitHub 存储库中的代码或内容提交拉取请求，Microsoft 和课程作者将对内容进行分类，并根据需要采纳内容和实验代码更改。
+- 每位 MCT 都可向 GitHub 存储库中的代码或内容提交拉取请求，Microsoft 和课程作者将对内容进行分类，并根据需要采纳内容和实验室代码更改。
 
 - 你可以提交 Bug、更改、改进内容和想法。  发现了我们尚未推出的新 Azure 功能？  请提交新的演示！
 
