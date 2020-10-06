@@ -54,7 +54,7 @@
 
     ![图片 1](Linked_image_Files/PowerBI_Lab01A_image3.png)
 
-2. 在 Edge 中，导航到 **http://powerbi.com**。
+2. 在 Edge 中，导航到 **http://powerbi.com** 。
 
     *提示：还可以在“Edge 收藏夹”栏上使用 Power BI 服务收藏夹*。
 
