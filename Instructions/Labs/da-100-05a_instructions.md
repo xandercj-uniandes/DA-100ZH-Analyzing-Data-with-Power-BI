@@ -48,7 +48,7 @@ Power BI Desktop 中的高级数据建模
 
 	* **区域 | 从 SalesTerritoryKey** 到 **SalespersonRegion | SalesTerritoryKey**
 
-***SalespersonRegion** 表可以视为桥接表*。
+        ***SalespersonRegion** 表可以视为桥接表*。
 
 5. 切换到“报表”视图，然后注意视觉效果尚未更新 - Michael Blythe 的销售结果未更改。
 

@@ -352,7 +352,7 @@ Power BI Desktop 中的数据建模
 
 	![图片 359](Linked_image_Files/PowerBI_Lab04A_image32.png)
 
-	* **“Targets | TargetMonth”** 呈现相同的层次结构。这些层次结构不是由你创建。它们是自动创建的。但是，有一个问题。Adventure Works 财政年度始于每年的 7 月 1 日。*但是，日期层次结构的年份始于每年的 1 月 1 日*。
+***“Targets | TargetMonth”** 呈现相同的层次结构。这些层次结构不是由你创建。它们是自动创建的。但是，有一个问题。Adventure Works 财政年度始于每年的 7 月 1 日。但是，日期层次结构的年份始于每年的 1 月 1 日*。
 
 	*现将关闭此自动行为。将在 **“实验室 06A”** 中使用 DAX 创建日期表，并对其进行配置以定义 Adventure Works 的日历*。
 

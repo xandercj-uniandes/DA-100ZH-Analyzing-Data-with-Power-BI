@@ -248,7 +248,7 @@
 
 	![图片 63](Linked_image_Files/PowerBI_Lab02A_image32.png)
 
-***“TotalProductCost”** 列值缺失是存在的数据质量问题。*为解决该问题，在下一个实验室中，你将通过使用产品标准成本（存储在 **“DimProduct”** 表中）来应用转换以填充缺失值*。
+***“TotalProductCost”** 列值缺失是存在的数据质量问题。为解决该问题，在下一个实验室中，你将通过使用产品标准成本（存储在 **“DimProduct”** 表中）来应用转换以填充缺失值*。
 
 ### 任务 5：从 CSV 文件获取数据
 
