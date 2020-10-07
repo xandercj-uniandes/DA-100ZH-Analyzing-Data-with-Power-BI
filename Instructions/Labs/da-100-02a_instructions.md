@@ -150,7 +150,7 @@
 
 	![图片 31](Linked_image_Files/PowerBI_Lab02A_image18.png)
 
-	* **"查询"** 窗格为每个选定的表包含一个查询*。
+***"查询"** 窗格为每个选定的表包含一个查询*。
 
 2. 选择第一个查询 **“DimEmployee”**。
 
@@ -194,7 +194,7 @@
 
 	![图片 44](Linked_image_Files/PowerBI_Lab02A_image25.png)
 
-	* **“DimEmployeeSalesTerritory”** 表为每位员工及其管理的销售地区存储一行。该表支持将多个地区与单个员工相关联。一些员工管理一个、两个或可能更多的区域。对数据建模时，需要定义多对多关系，这将在 **“实验室 05A”** 中进行*。
+***“DimEmployeeSalesTerritory”** 表为每位员工及其管理的销售地区存储一行。该表支持将多个地区与单个员工相关联。一些员工管理一个、两个或可能更多的区域。对数据建模时，需要定义多对多关系，这将在 **“实验室 05A”** 中进行*。
 
 12. 在 **“查询”** 窗格中，选择 **“DimProduct”** 查询。
 
@@ -212,7 +212,7 @@
 
 	![图片 49](Linked_image_Files/PowerBI_Lab02A_image27.png)
 
-	*在 **DimReseller** 表中，每个经销商对应一行。*经销商销售、分销或增值 Adventure Works' 的产品*。
+	*在 **DimReseller** 表中，每个经销商对应一行。经销商销售、分销或增值 Adventure Works' 的产品*。
 
 16. 要查看列值，请在 **“视图”** 功能区选项卡，从 **“数据预览”** 组中，勾选 **“列分析”**。
 
@@ -248,7 +248,7 @@
 
 	![图片 63](Linked_image_Files/PowerBI_Lab02A_image32.png)
 
-	* **“TotalProductCost”** 列值缺失是存在的数据质量问题。*为解决该问题，在下一个实验室中，你将通过使用产品标准成本（存储在 **“DimProduct”** 表中）来应用转换以填充缺失值*。
+***“TotalProductCost”** 列值缺失是存在的数据质量问题。*为解决该问题，在下一个实验室中，你将通过使用产品标准成本（存储在 **“DimProduct”** 表中）来应用转换以填充缺失值*。
 
 ### 任务 5：从 CSV 文件获取数据
 

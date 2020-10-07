@@ -26,7 +26,7 @@
 
 在此任务中，你将打开 **MySettings.txt** 文件，并记录帐户详细信息。
 
-*讲师已为你提供了一个帐户，请务必使用该帐户来完成所有实验室。如果未向你提供帐户，请浏览至 https://powerbi.microsoft.com/zh-cn/documentation/powerbi-admin-signing-up-for-power-bi-with-a-new-office-365-trial，并按照步骤创建帐户，然后再继续此实验室*。
+*讲师已为你提供了一个帐户，请务必使用该帐户来完成所有实验室。如果未向你提供帐户，请浏览至 https://powerbi.microsoft.com/zh-cn/documentation/powerbi-admin-signing-up-for-power-bi-with-a-new-office-365-trial，并按照步骤创建帐户，然后再继续此实验室* 。
 
 1. 要打开文件资源管理器，请单击任务栏上的文件资源管理器程序快捷方式。
 
@@ -165,4 +165,4 @@
 
     * **AdventureWorksDW2020** 数据库已更新为使用帐户详细信息。你现在是销售人员 Michael Blythe，销售业绩通过三个销售区域的销售额来衡量：美国东北部、美国中部和美国东南部*。
 
-    *在**实验室 03B** 中实现行级安全性时，这些事实将变得相关*。
+*在**实验室 03B** 中实现行级安全性时，这些事实将变得相关*。

@@ -180,9 +180,9 @@
 
 	![图片 28](Linked_image_Files/PowerBI_Lab10A_image26.png)
 
-	37.当提示按任意键继续时，请再次按 **Enter**。
+当提示按任意键继续时，请再次按 **Enter**。
 
-	 * **AdventureWorksDW2020** 数据库现在包括 2020 年 6 月的销售订单*。
+***AdventureWorksDW2020** 数据库现在包括 2020 年 6 月的销售订单*。
 
 2. 在 **“D:\DA100\Setup”** 文件夹中，右键单击 **UpdateDatabase-3-AddPartnerAccount.ps1** 文件，然后选择 **“使用 PowerShell 运行”**。
 
@@ -238,7 +238,7 @@
 
 	![图片 33](Linked_image_Files/PowerBI_Lab10A_image29.png)
 
-	* **“本年迄今为止的销售额”** 磁贴上的警报也应该触发了。片刻之后，警报应通知你销售额现在已超过配置的阈值*。
+***“本年迄今为止的销售额”** 磁贴上的警报也应该触发了。片刻之后，警报应通知你销售额现在已超过配置的阈值*。
 
 4. 请注意，**“Sales YTD”** 磁贴已更新为 **“$37M”**。
 
